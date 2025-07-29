@@ -1,0 +1,61 @@
+body {
+    background: url('/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+
+.container {
+    max-width: 400px;
+    margin: 60px auto;
+    background: rgba(255, 255, 255, 0.85);
+    padding: 2rem 2.5rem;
+    border-radius: 16px;
+    box-shadow: 0 8px 40px rgba(0,0,0,0.18);
+    text-align: center;
+    backdrop-filter: blur(4px);
+}
+
+h1 {
+    margin-bottom: 1.5rem;
+    color: #4a90e2;
+}
+
+form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 1.5rem;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 0.5rem 1rem;
+    border: 1px solid #b3b3b3;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+button {
+    padding: 0.5rem 1.2rem;
+    background: #4a90e2;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+button:hover {
+    background: #357ab8;
+}
+
+.weather-result {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    color: #222;
+    min-height: 40px;
+}
